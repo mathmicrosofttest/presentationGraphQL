@@ -1,0 +1,6 @@
+@_5___Mutation_HostAddress = http://localhost:5228
+
+GET {{_5___Mutation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
