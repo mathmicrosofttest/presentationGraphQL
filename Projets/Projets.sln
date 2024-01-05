@@ -19,7 +19,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.04.HotChocolateAzureFunc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.02.HotChocolateDummyData", "06.HotChocolateDummyData\06.02.HotChocolateDummyData.csproj", "{54301721-C373-481C-AE8D-DBE2DB3B7354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrawberryClientTest", "StrawberryClientTest\StrawberryClientTest.csproj", "{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrawberryClientTest", "StrawberryClientTest\StrawberryClientTest.csproj", "{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A250276-5430-4CB7-85B0-9DF18239494E}"
+	ProjectSection(SolutionItems) = preProject
+		ProcedureStrawberryShake.txt = ProcedureStrawberryShake.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
