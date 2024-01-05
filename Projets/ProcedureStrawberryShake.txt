@@ -4,6 +4,12 @@ dotnet tool install StrawberryShake.Tools --local
 
 dotnet add package StrawberryShake.Server
 
+{
+dotnet new sln -n Test
+dotnet new console -n Test
+dotnet sln add ./Test
+}
+
 dotnet graphql init https://workshop.chillicream.com/graphql/ -n ConferenceClient -p ./GraphQL
 
 ajouter "outputDirectoryName": "GraphQL"
@@ -19,6 +25,8 @@ query GetSessions {
 }
 
 dotnet build
+
+(unload reload project si le client n'est pas dispo)
 
 program.cs
 
