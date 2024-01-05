@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 - Mutation", "5 - Mutatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6 - Souscription", "6 - Souscription\6 - Souscription.csproj", "{2EA7DDBB-D1CD-40F8-AA12-865FE40A8F16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9 - StrawberryShake", "9 - StrawberryShake\9 - StrawberryShake.csproj", "{A38D4471-0F3E-4B53-92E1-69925457618B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.03.HotChocolateEntityFramework", "06.03.HotChocolateEntityFramework\06.03.HotChocolateEntityFramework.csproj", "{A75FD494-8795-4FE3-9D1A-26A50AF796C6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.01.HotChocolateSetup", "06.HotChocolate\06.01.HotChocolateSetup.csproj", "{D36F9874-311C-4ACD-B18C-72A1B8546AE6}"
@@ -20,6 +18,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.04.HotChocolateAzureFunction", "06.HotChocolateAzureFunction\06.04.HotChocolateAzureFunction.csproj", "{FE1F8651-5CC1-4227-94A8-6F1AA11D9430}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.02.HotChocolateDummyData", "06.HotChocolateDummyData\06.02.HotChocolateDummyData.csproj", "{54301721-C373-481C-AE8D-DBE2DB3B7354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrawberryClientTest", "StrawberryClientTest\StrawberryClientTest.csproj", "{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,6 @@ Global
 		{2EA7DDBB-D1CD-40F8-AA12-865FE40A8F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EA7DDBB-D1CD-40F8-AA12-865FE40A8F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EA7DDBB-D1CD-40F8-AA12-865FE40A8F16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A38D4471-0F3E-4B53-92E1-69925457618B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A38D4471-0F3E-4B53-92E1-69925457618B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A38D4471-0F3E-4B53-92E1-69925457618B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A38D4471-0F3E-4B53-92E1-69925457618B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A75FD494-8795-4FE3-9D1A-26A50AF796C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A75FD494-8795-4FE3-9D1A-26A50AF796C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A75FD494-8795-4FE3-9D1A-26A50AF796C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{54301721-C373-481C-AE8D-DBE2DB3B7354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54301721-C373-481C-AE8D-DBE2DB3B7354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54301721-C373-481C-AE8D-DBE2DB3B7354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
