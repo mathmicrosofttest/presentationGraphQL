@@ -1,0 +1,3 @@
+
+projet mutation
+http://localhost:5228/graphql?query={employee(id:2){name,deptName}}
