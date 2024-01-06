@@ -1,0 +1,33 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+
+@foreach (var session in sessionTitle)
+{
+    @session.Title;
+}
+
+
+
+@code {
+
+    [Inject] CryptoClient cryptoClient { get; set; }
+
+    List<IGetSessions_Sessions_Nodes> sessionTitle { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await cryptoClient.GetSessions.ExecuteAsync();
+        result.EnsureNoErrors();
+
+        foreach (var session in result.Data.Sessions.Nodes)
+        {
+            sessionTitle.Add(session);
+        }
+    }
+}

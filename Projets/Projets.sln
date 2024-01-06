@@ -24,7 +24,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A250276-5430-4CB7-85B0-9DF18239494E}"
 	ProjectSection(SolutionItems) = preProject
 		ProcedureStrawberryShake.txt = ProcedureStrawberryShake.txt
+		StrawberryShakeBlazor.txt = StrawberryShakeBlazor.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmStrawberry", "BlazorWasmStrawberry\BlazorWasmStrawberry.csproj", "{F5F52DC9-B51E-4013-A95E-48463E35B403}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +71,10 @@ Global
 		{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF2EE2B-8B95-4BB4-9483-10F4FB8D6C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F52DC9-B51E-4013-A95E-48463E35B403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F52DC9-B51E-4013-A95E-48463E35B403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F52DC9-B51E-4013-A95E-48463E35B403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F52DC9-B51E-4013-A95E-48463E35B403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
