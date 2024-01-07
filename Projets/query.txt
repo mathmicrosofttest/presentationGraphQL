@@ -1,3 +1,17 @@
 
 projet mutation
 http://localhost:5228/graphql?query={employee(id:2){name,deptName}}
+
+projet subscription
+http://localhost:5062/graphql?subscription
+
+subscription MessageAdded {
+  messageAdded {
+    from {
+      id
+      displayName
+    }
+    content
+    sentAt
+  }
+}
